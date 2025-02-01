@@ -17,7 +17,7 @@ In the first lab session, we covered:
 - Calibration of IMU sensors.
 
 ### Local Coordinate Frame of the Zumo IMU Sensor
-![Local Coordinate Frame](img1.png)
+![Local Coordinate Frame](https://github.com/RajanaKavinda/EN4594_IMU_Sensor_Calibration/blob/main/images/img1.png)
 
 ## Understanding the 9-DOF IMU
 A 9-Degree of Freedom (DOF) IMU consists of:
@@ -31,6 +31,6 @@ In the second lab session, we covered:
 - Estimation of the orientation of a given object using an IMU sensor.
 
 ### Robot Orientation Visualization in RViz
-![Robot Orientation in RViz](img2.png)
-![Robot Orientation Visualization](img3.png)
+![Robot Orientation in RViz](https://github.com/RajanaKavinda/EN4594_IMU_Sensor_Calibration/blob/main/images/img2.png)
+![Robot Orientation Visualization](https://github.com/RajanaKavinda/EN4594_IMU_Sensor_Calibration/blob/main/images/img3.png)
 
