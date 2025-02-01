@@ -1,0 +1,38 @@
+<launch>
+  <node pkg="zumo_imu_kf" exec="zumo_imu_kf_node" name="zumo_imu_kf_node" namespace="zumo" output="screen">
+
+    <param name="taylor_normalization" value="false" />
+    <param name="imu_demo" value="true"/>
+    <param name="print_imu_values" value="false"/>
+    <param name="display_parameters" value="false"/>    
+
+    <param name="process_x_std" value="0.1"/>
+    <param name="process_y_std" value="0.1"/>
+    <param name="process_z_std" value="0.1"/>
+    <param name="meas_x_std" value="0.1"/>
+    <param name="meas_y_std" value="0.1"/>
+    <param name="meas_z_std" value="0.1"/>
+
+    <param name="mag_min_x" value="32767"/>
+    <param name="mag_min_y" value="32767"/>
+    <param name="mag_min_z" value="32767"/>
+    <param name="mag_max_x" value="-32768"/>
+    <param name="mag_max_y" value="-32768"/>
+    <param name="mag_max_z" value="-32768"/>
+
+    <param name="acc_cali_11" value="1"/>
+    <param name="acc_cali_12" value="0"/>
+    <param name="acc_cali_13" value="0"/>
+    <param name="acc_cali_21" value="0"/>
+    <param name="acc_cali_22" value="1"/>
+    <param name="acc_cali_23" value="0"/>
+    <param name="acc_cali_31" value="0"/>
+    <param name="acc_cali_32" value="0"/>
+    <param name="acc_cali_33" value="1"/>
+    <param name="acc_cali_41" value="0"/>
+    <param name="acc_cali_42" value="0"/>
+    <param name="acc_cali_43" value="0"/>
+
+
+  </node>
+</launch>
